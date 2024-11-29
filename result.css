@@ -1,0 +1,381 @@
+.homeback{
+    color: chartreuse;
+    cursor: pointer;
+}
+.boracay-title {
+    position: absolute;
+    width: 990px;
+    height: 64px;
+    left: 82px;
+    top: 66px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 57px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    letter-spacing: -0.25px;
+
+    /* Colors/Green */
+    color: #34C759;
+  }
+  .near-hotel {
+    position: absolute;
+    width: 437px;
+    height: 64px;
+    left: 1004px;
+    top: 110px;
+
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the text horizontally */
+    text-align: center;
+    letter-spacing: -0.25px;
+
+    /* Colors/Green */
+    color: #34C759;
+  }
+  .framee {
+    position: absolute;
+    width: 311px;
+    height: 275px;
+    left: 1063px;
+    top: 178px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Image 6 */
+  .image {
+    position: absolute;
+    width: 259px;
+    height: 157px;
+    left: 28px;
+    top: 20px;
+    background: url('img/7stone.png');
+    background-size: cover; /* Ensure the image fits within the box */
+    background-position: center;
+  }
+
+  /* 7Stones Boracay */
+  .title {
+    position: absolute;
+    width: 170px;
+    height: 38px;
+    left: 28px;
+    top: 174px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.25px;
+    color: #000000;
+  }
+
+  /* Address */
+  .address {
+    position: absolute;
+    width: 222px;
+    height: 32px;
+    left: 56px;
+    top: 212px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.25px;
+    color: #000000;
+  }
+
+  /* Operating Hours */
+  .hours {
+    position: absolute;
+    width: 63px;
+    height: 11px;
+    left: 56px;
+    top: 256px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.25px;
+    color: #000000;
+  }
+
+  /* Clock Icon */
+  .clock-icon {
+    position: absolute;
+    width: 21px;
+    height: 19px;
+    left: 24px;
+    top: 247px;
+    background: url('clock.png'); /* Use an image of a clock */
+    background-size: cover;
+    background-position: center;
+  }
+
+
+  /* Image 2 */
+  .image-2 {
+    width: 430px;
+    height: 269px;
+    left: 134px;
+    top: 174px;
+    background: url('image1.png'); /* Replace with actual image path */
+  }
+
+  /* Image 3 */
+  .image-3 {
+    width: 430px;
+    height: 269px;
+    left: 135px;
+    top: 449px;
+    background: url('image2.jpg'); /* Replace with actual image path */
+  }
+
+  /* Image 4 */
+  .image-4 {
+    width: 430px;
+    height: 269px;
+    left: 570px;
+    top: 174px;
+    background: url('image3.png'); /* Replace with actual image path */
+  }
+
+  /* Image 5 */
+  .image-5 {
+    width: 430px;
+    height: 269px;
+    left: 570px;
+    top: 449px;
+    background: url('image4.png'); /* Replace with actual image path */
+  }
+  /* Frame 8 */
+    .frame {
+      position: absolute;
+      width: 311px;
+      height: 275px;
+      left: 1065px;
+      top: 464px;
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    /* Image 6 */
+    .images {
+      position: absolute;
+      width: 259px;
+      height: 157px;
+      left: 28px;
+      top: 20px;
+      background: url('/img/casetas.jpg'); /* Replace with actual image path */
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Casitas de Boracay */
+    .titlee {
+      position: absolute;
+      width: 170px;
+      height: 38px;
+      left: 28px;
+      top: 174px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 64px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.25px;
+      color: #000000;
+    }
+
+    /* Address */
+    .addresss {
+      position: absolute;
+      width: 222px;
+      height: 32px;
+      left: 56px;
+      top: 212px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.25px;
+      color: #000000;
+    }
+
+    /* Operating Hours */
+    .hourss {
+      position: absolute;
+      width: 63px;
+      height: 11px;
+      left: 56px;
+      top: 250px;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 16px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.25px;
+      color: #000000;
+    }
+    .line {
+        position: absolute;
+        width: 867px;
+        height: 0px;
+        left: 137px;
+        top: 757px;
+        border: 1px solid #34C759; /* Green color for the line */
+        transform: rotate(-0.13deg); /* Slight rotation */
+      }
+      .location-text {
+        position: absolute;
+        width: 322px;
+        height: 26px;
+        left: 227px;
+        top: 778px;
+        font-family: 'Inter', sans-serif; /* Make sure Inter font is loaded */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%; /* 22px */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #34C759; /* Green color */
+      }
+      .phone-number {
+        position: absolute;
+        width: 124px;
+        height: 26px;
+        left: 230px;
+        top: 817px;
+        font-family: 'Inter', sans-serif; /* Make sure Inter font is loaded */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%; /* 22px */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        color: #34C759; /* Green color */
+      }
+      .line-4 {
+        position: absolute;
+        width: 867px;
+        height: 0px;
+        left: 136px;
+        top: 858px;
+        border: 1px solid #34C759; /* Green color for the line */
+        transform: rotate(-0.13deg); /* Slight rotation */
+      }
+      .description {
+        position: absolute;
+        width: 861px;
+        height: 419px;
+        left: 142px;
+        top: 903px;
+        font-family: 'Inter', sans-serif; /* Ensure Inter font is included */
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%; /* 22px */
+        color: #000000; /* Black color */
+        overflow-y: auto; /* Allows scrolling if content overflows */
+      }
+      /* Frame 9 */
+    .frame-9 {
+        position: absolute;
+        width: 311px;
+        height: 275px;
+        left: 1065px;
+        top: 753px;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      }
+  
+      /* Image 6 */
+      .image-6 {
+        position: absolute;
+        width: 259px;
+        height: 157px;
+        left: 28px;
+        top: 20px;
+        background: url('/img/breakfast.jpg') no-repeat center center;
+        background-size: cover;
+      }
+  
+      /* Hakuna Matata Boracay */
+      .titles {
+        position: absolute;
+        width: 240px;
+        height: 38px;
+        left: 28px;
+        top: 174px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 64px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.25px;
+        color: #000000;
+      }
+  
+      /* Address */
+      .addressess {
+        position: absolute;
+        width: 222px;
+        height: 32px;
+        left: 56px;
+        top: 212px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.25px;
+        color: #000000;
+      }
+  
+      /* Working Hours */
+      .hoursss {
+        position: absolute;
+        width: 63px;
+        height: 11px;
+        left: 56px;
+        top: 254px;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 16px;
+        display: flex;
+        align-items: center;
+        letter-spacing: -0.25px;
+        color: #000000;
+      }

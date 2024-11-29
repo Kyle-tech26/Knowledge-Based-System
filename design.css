@@ -1,0 +1,327 @@
+.hero-header {
+    background: url('img/taalll.jpg') center center no-repeat;
+    background-size: cover;
+    height: 70vh;
+    position: relative;
+    top: 90px;
+}
+.hero-headerr {
+    background: url('img/windmill.jpeg') center center no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    top: 90px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.aboutpic {
+    position: relative;
+    top: 110px;
+    left: 50px;
+
+}
+.navbarr-logo{
+    width: -500px;
+    position: relative;
+    top: -10px;
+    left: 20px;
+}
+.cute{
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+/* Navbar styling */
+.navbar {
+    background-color: #86B817;
+    padding: 10px 1px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20px;
+}
+.navbar-brand {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+/* Menu icon (hamburger icon) */
+.menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.menu-icon span {
+    background-color: white;
+    height: 3px;
+    width: 25px;
+    margin: 4px;
+}
+/* Navbar links */
+.nav-link {
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: 10px;
+    left: 200px;
+}
+.nav-link li {
+    position: relative;
+}
+.nav-link a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+.nav-linkks a:hover {
+    background-color: white;
+    border-radius: 5px;
+}
+/* Dropdown menu */
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #86B817;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    padding: 10px 0;
+}
+.dropdown-menu li a {
+    padding: 10px 20px;
+    display: block;
+}
+.dropdown-menu li a:hover {
+    background-color: #fdfdfd;
+}
+/* Responsive menu */
+@media (max-width: 768px) {
+    .menu-icon {
+        display: flex;
+    }
+    .nav-link {
+        display: none;
+        flex-direction: column;
+        background-color: #333333;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+    }
+    .nav-link li {
+        text-align: center;
+    }
+    .nav-link.show {
+        display: flex;
+    }
+}
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    position: relative;
+    left: -10px;
+}
+.slideInDown {
+    animation-name: slideInDown;
+    position: relative;
+    bottom: 150px;
+    color: #555;
+}
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.wow {
+    visibility: hidden;
+}
+.fadeInUp {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    visibility: visible;
+}
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 100%, 0);
+        opacity: 0;
+    }
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+.button{
+    background-color: #86B817;
+}
+.design{
+    position: relative;
+    top: -90px;
+    margin: 10px;
+    color: white;
+    background-color: #86B817;
+    width: 150px;
+    height: 40px;
+    border-radius: 7px;
+}
+.h1{
+    color: #86B817;
+}
+.design :hover{
+    background-color: white;
+}
+.owl-carousel, .owl-carousel .owl-item {
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.owl-carousel {
+    display: none;
+    width: 80%;
+    z-index: s;
+}
+.owl-carousel .owl-stage {
+    position: relative;
+}
+.owl-carousel .owl-item {
+    float: left;
+    min-height: 1px;
+}
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+.owl-dots {
+    text-align: center;
+}
+.DESTINATIONS {
+    position: relative;
+    top: 120px;
+}
+footer {
+    background-color: #282828;
+    color: #ffffff;
+    padding: 40px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 0 20px;
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #f4a261;
+  }
+  
+  .footer-section p {
+    line-height: 1.6;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.3s;
+  }
+  
+  .footer-section ul li a:hover {
+    color: #f4a261;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444444;
+    padding-top: 20px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+  }
+   .aboutluzon{
+    position: relative;
+    top: 20px;
+   }
+   .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tourist-spot {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    width: 300px;
+    text-align: center;
+    position: relative;
+}
+
+.tourist-spot img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.tourist-spot h3 {
+    margin: 10px;
+    color: #007BFF;
+}
+
+.tourist-spot p {
+    padding: 0 10px;
+    color: #555;
+}
+
+.tourist-spot .location {
+    font-size: 0.9em;
+    color: #888;
+    margin-bottom: 10px;
+}
+
+.tourist-spot:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+}
